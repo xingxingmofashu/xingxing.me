@@ -4,14 +4,11 @@
   "name": "xingxing.me",
   "customizations": {
     "vscode": {
-      "settings": {},
       "extensions": [
-        "vue.volar"
+        "vue.volar",
+        "bradlc.vscode-tailwindcss"
       ]
     }
   },
-  "postStartCommand": "pnpm install && pnpm dev",
-  "mounts": [
-    "type=volume,target=${containerWorkspaceFolder}/node_modules"
-  ]
+  "postCreateCommand": "corepack enable"
 }
