@@ -2,14 +2,10 @@
 // https://containers.dev/implementors/json_reference/
 {
   "name": "xingxing.me",
-  "build": { "dockerfile": "Dockerfile" },
-  "features": {},
   "customizations": {
     "vscode": {
       "settings": {},
       "extensions": [
-        "ms-azuretools.vscode-docker",
-        "dbaeumer.vscode-eslint",
         "vue.volar"
       ]
     }
